@@ -1,0 +1,97 @@
+/* Common style */
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  margin-bottom: 80px;
+}
+.orange-color {
+  color: #ffad5a;
+}
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 24px;
+}
+.center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #ff5959;
+  text-decoration: none;
+  padding: 12px 38px;
+  border-radius: 5px;
+}
+
+#stay-focused {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+#stay-focused-heading {
+  border-left: 5px solid tomato;
+}
+#mission-objective {
+  width: 50%;
+  display: block;
+}
+
+#mission-objective h1 {
+  font-family: "Yeseva One", cursive !important;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+#profile-pic {
+  width: 50%;
+  text-align: center;
+}
+
+#profile-pic img {
+  width: 70%;
+}
+
+/* Mission */
+#section-mission22 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#mission-vision-goals {
+  display: flex;
+  justify-content: space-between;
+}
+.card-padding {
+  padding: 30px;
+}
+#mission-card-color {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#vission-card-color {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#goals-card-color {
+  background-color: #fff4d6;
+}
+.card {
+  width: 32%;
+  border-radius: 26px;
+}
+
+.card img {
+  width: 50%;
+}
