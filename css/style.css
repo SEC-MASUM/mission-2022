@@ -1,12 +1,17 @@
-/* Common style */
+/* -----------------------------Common style ----------------------------*/
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 section {
   margin-bottom: 80px;
 }
 .orange-color {
   color: #ffad5a;
+}
+.orangered-color {
+  color: #ff5959;
 }
 p {
   text-align: justify;
@@ -36,38 +41,48 @@ h4 {
   padding: 12px 38px;
   border-radius: 5px;
 }
-
+/* ---------------------------Stay Focused-------------------------------- */
 #stay-focused {
   display: flex;
-  width: 90%;
+  justify-content: space-between;
+  width: 80%;
   margin: 0 auto;
 }
-#stay-focused-heading {
-  border-left: 5px solid tomato;
-}
-#mission-objective {
+#stay-focused-left {
   width: 50%;
-  display: block;
-}
-
-#mission-objective h1 {
-  font-family: "Yeseva One", cursive !important;
-  font-weight: normal;
-  padding-left: 10px;
 }
 
 #profile-pic {
-  width: 50%;
-  text-align: center;
+  width: 40%;
 }
 
 #profile-pic img {
-  width: 70%;
+  width: 80%;
+  margin-left: 5%;
+}
+#stay-focused-heading-style {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: -60px;
+}
+#stay-focused-left-border {
+  width: 5px;
+  height: 135px;
+  border-radius: 5px;
+  background-color: orangered;
 }
 
-/* Mission */
+#stay-focused h1 {
+  font-family: "Yeseva One", cursive !important;
+  font-weight: normal;
+  padding-left: 10px;
+  line-height: 90px;
+}
+
+/*------------------------------------ Mission -------------------------------*/
 #section-mission22 {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -94,4 +109,50 @@ h4 {
 
 .card img {
   width: 50%;
+}
+
+/* --------------------------------- Two Column Section------------------- */
+.bg-img {
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 18%;
+}
+#develop-skill-bg-img-position {
+  background-position-x: 40px;
+  background-position-y: 30px;
+}
+#graphics-design-bg-img-position {
+  background-position-x: 1010px;
+  background-position-y: 200px;
+}
+.two-column {
+  display: flex;
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.text-section {
+  width: 55%;
+}
+.image-section {
+  width: 35%;
+}
+.image-section img {
+  width: 100%;
+}
+/* ------------------------------------Footer----------------------------- */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+footer h3 {
+  font-family: "Lobster", cursive !important;
+}
+
+footer p {
+  font-family: "Manrope", sans-serif !important;
+  font-size: 14px !important;
 }
